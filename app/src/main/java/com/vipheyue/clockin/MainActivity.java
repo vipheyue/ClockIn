@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         initView();
 
         initData();
-        SharePreferencesUtil.putSpString("定时任务", "已经开启任务", MainActivity.this);
+        SharePreferencesUtil.putSpString("定时任务", "已经开启任务", MainActivity.this);//test
         tv_msg.setText("已经开启任务");
     }
 
